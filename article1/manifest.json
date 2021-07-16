@@ -1,0 +1,35 @@
+{
+    "app_id": "BlogApp",
+    "app_type": "http",
+    "version": "0_0_1",
+    "display_name": "BlogApp",
+    "description": "BlogApp",
+    "root_url": "http://localhost:3030",
+    "homepage_url": "https://github.com/larkox/mattermost-app-test",
+    "requested_locations": [
+        "/post_menu",
+        "/command",
+        "/channel_header"
+    ],
+    "requested_permissions": [
+        "act_as_bot",
+        "act_as_user",
+        "act_as_admin"
+    ],
+    "bindings": {
+        "path": "/bindings",
+        "type": "",
+        "expand": {
+            "app": "all",
+            "acting_user": "all",
+            "acting_user_access_token": "all",
+            "admin_access_token": "all",
+            "channel": "all",
+            "mentioned": "all",
+            "parent_post": "all",
+            "post": "all",
+            "root_post": "all",
+            "team": "all"
+        }
+    }
+}
